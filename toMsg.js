@@ -58,7 +58,7 @@ const x = res.map(o => {
         time: o.time,
         ms: o.ms,
         $CallLog: {
-            duration: o.duration,
+            data: { duration: o.duration },
         },
 
         $Dev: {
@@ -67,10 +67,10 @@ const x = res.map(o => {
     };
 
     if ('location' in o) {
-        msg.$CallLog.location = o.location;
+        msg.$CallLog.data.location = o.location;
     }
     if ('price' in o) {
-        msg.$CallLog.price = o.price;
+        msg.$CallLog.data.price = o.price;
     }
 
     return msg;

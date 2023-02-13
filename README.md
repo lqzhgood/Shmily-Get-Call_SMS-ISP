@@ -14,3 +14,11 @@
 
 0. 安装 node 环境 [http://lqzhgood.github.io/Shmily/guide/setup-runtime/nodejs.html]
 1. `npm run ???`
+
+## 感谢
+
+http://lqzhgood.github.io/Shmily/guide/other/thanks.html
+
+## 捐赠
+
+点击链接 http://lqzhgood.github.io/Shmily/guide/other/donation.html 看世界上最可爱的动物

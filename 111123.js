@@ -66,8 +66,10 @@ const b = m
             time: d.format('HH:mm:ss'),
             ms: d.valueOf(),
             $CallLog: {
-                duration: o.duration,
-                location: o.location,
+                data: {
+                    duration: o.duration,
+                    location: o.location,
+                },
             },
         };
     });
@@ -90,7 +92,7 @@ const tmp2 = {
     time: '',
     ms: '',
     $CallLog: {
-        duration: 253,
+        data: { duration: 253 },
     },
 };
 
@@ -112,6 +114,6 @@ const tmp = {
     _Dev: { warn: '', isFromOtherAccount: '' },
     numberIsTrue: '',
     $CallLog: {
-        duration: 253,
+        data: { duration: 253 },
     },
 };
